@@ -13,8 +13,6 @@ public class FruitVisual : MonoBehaviour
 
     [SerializeField]private ParticleSystem partikelJuice;
 
-    private Animator animatorController;
-    private const string POP_UP = "PopUp";
     
 
     // [SerializeField]private GameObject cutEffect;

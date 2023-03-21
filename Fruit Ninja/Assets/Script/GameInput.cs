@@ -5,8 +5,11 @@ using UnityEngine;
 public class GameInput : MonoBehaviour
 {
 
+    
     private bool checkMouseDown = false;
     private bool checkMouseUp = false;
+
+    private bool checkStart = false;
 
     // Update is called once per frame
     public bool GetMouseDown(){
@@ -27,4 +30,15 @@ public class GameInput : MonoBehaviour
         }
         return checkMouseUp;
     }
+
+    public bool InputGameStart(){
+        if(Input.GetMouseButtonDown(0)){
+            checkStart = true;
+        }
+        else{
+            checkStart = false;
+        }
+        return checkStart;
+    }
+    
 }

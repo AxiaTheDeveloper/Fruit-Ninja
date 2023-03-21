@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ObjectSpawner : MonoBehaviour
 {
-
+    public static ObjectSpawner Instance{get; private set;}
     private Collider2D spawnArea;
 
     [SerializeField]private FruitsSpawnScriptableObject objectSpawnSO;
@@ -29,6 +29,7 @@ public class ObjectSpawner : MonoBehaviour
     [SerializeField]private float spawnWaitBeforeStartGame;
     private void Awake() {
         spawnArea = GetComponent<Collider2D>();
+        Instance = this;
     }
 
     //courotineeee time
@@ -83,4 +84,5 @@ public class ObjectSpawner : MonoBehaviour
             yield return new WaitForSeconds(Random.Range(spawnDelayMin,spawnDelayMax));
         }
     }
+
 }

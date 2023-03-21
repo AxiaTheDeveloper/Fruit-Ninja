@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class KnifeBehaviour : MonoBehaviour
 {   
-    // public static KnifeBehaviour Instance{get; private set;}
+    public static KnifeBehaviour Instance{get; private set;}
     
     [SerializeField]private GameInput gameInput;
     [SerializeField]private KnifeVisual knifeVisual;
@@ -18,24 +18,27 @@ public class KnifeBehaviour : MonoBehaviour
 
     private void Awake() {
         knifeCollider = GetComponent<Collider2D>();
+        Instance = this;
     }
 
     private void Start() {
-        // Instance = this;
+        // 
     }
 
     void Update()
     {
-        if(gameInput.GetMouseDown()){
-            StartUsingKnife();
+        if(FruitNinjaGameManager.Instance.IsGameStart()){
+            if(gameInput.GetMouseDown()){
+                StartUsingKnife();
+            }
+            else if(gameInput.GetMouseUp()){
+                StoptUsingKnife();
+            }
+            if(isUseKnife){
+                UsingKnife();
+            }
+        // Debug.Log(knifeCollider.enabled);    
         }
-        else if(gameInput.GetMouseUp()){
-            StoptUsingKnife();
-        }
-        if(isUseKnife){
-            UsingKnife();
-        }
-        // Debug.Log(knifeCollider.enabled);
         
     }
 

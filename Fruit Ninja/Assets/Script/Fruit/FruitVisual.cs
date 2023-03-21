@@ -1,13 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class FruitVisual : MonoBehaviour
 {
+   
     [SerializeField]private GameObject full;
     [SerializeField]private GameObject cut;
 
     [SerializeField]private GameObject prefabEffect;
+
+    [SerializeField]private ParticleSystem partikelJuice;
+
+    private Animator animatorController;
+    private const string POP_UP = "PopUp";
     
 
     // [SerializeField]private GameObject cutEffect;
@@ -24,8 +31,8 @@ public class FruitVisual : MonoBehaviour
     public void GetCutted(){
         full.gameObject.SetActive(false);
         cut.gameObject.SetActive(true);
+        partikelJuice.Play();
 
-        
         
         // cutEffect.gameObject.SetActive(true);
     }

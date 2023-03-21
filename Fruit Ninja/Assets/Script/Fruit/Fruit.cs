@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Fruit : MonoBehaviour
 {
@@ -15,6 +16,9 @@ public class Fruit : MonoBehaviour
     
 
     private const string COLLIDER_PLAYER = "Player";
+
+    public event EventHandler OnCutScoreFruit;
+    
     private void Awake() {
         rigidFruit = GetComponent<Rigidbody2D>();
         fullFruitCollider = GetComponent<Collider2D>();
@@ -24,7 +28,8 @@ public class Fruit : MonoBehaviour
         if(other.CompareTag(COLLIDER_PLAYER)){
             // Cutted();
             KnifeBehaviour knife = other.GetComponent<KnifeBehaviour>();
-
+            
+            OnCutScoreFruit?.Invoke(this, EventArgs.Empty);
             Cutted(knife.GetPerpindahanKnife(),knife.transform.position,knife.GetCutForce());
         }
     }
@@ -44,7 +49,7 @@ public class Fruit : MonoBehaviour
         foreach(Rigidbody2D slicedFruit in rigidSlicedFruits){
             slicedFruit.velocity = rigidFruit.velocity;
 
-            Debug.Log(arahKnife + ".." + forceKnife + ".." + posisiKnifeKena);
+            // Debug.Log(arahKnife + ".." + forceKnife + ".." + posisiKnifeKena);
             slicedFruit.AddForceAtPosition(arahKnife * forceKnife, posisiKnifeKena);
         }
 

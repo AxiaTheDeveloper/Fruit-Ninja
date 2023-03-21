@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class KnifeVisual : MonoBehaviour
 {
-    private TrailRenderer trailKnife;
+    [SerializeField]private TrailRenderer trailKnife;
+    
 
     private void Awake() {
-        trailKnife = GetComponentInChildren<TrailRenderer>();
+        // trailKnife = GetComponentInChildren<TrailRenderer>();
     }
 
     public void bladeTrailOn(){

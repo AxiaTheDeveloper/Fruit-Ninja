@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 517454436037521541, guid: 5eb550baf218dbd4485ec8f40face1d7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ab4bead6eb712bc45acee70c9dd4c2c6, type: 2}
     - target: {fileID: 794402937561908093, guid: 5eb550baf218dbd4485ec8f40face1d7, type: 3}
       propertyPath: m_Points.Array.size
       value: 32
@@ -775,6 +779,10 @@ PrefabInstance:
       propertyPath: prefabEffect
       value: 
       objectReference: {fileID: 406389232740375750, guid: 2ebf2ded97ef59c47bab7fdf0e06f104, type: 3}
+    - target: {fileID: 5312251712727744668, guid: 5eb550baf218dbd4485ec8f40face1d7, type: 3}
+      propertyPath: fruitPoint
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5584999653792983484, guid: 5eb550baf218dbd4485ec8f40face1d7, type: 3}
       propertyPath: m_Sprite
       value: 

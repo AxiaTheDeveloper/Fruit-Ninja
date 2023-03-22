@@ -31,6 +31,7 @@ public class Fruit : MonoBehaviour
             
             OnCutScoreFruit?.Invoke(this, EventArgs.Empty);
             Cutted(knife.GetPerpindahanKnife(),knife.transform.position,knife.GetCutForce());
+            AudioManager.Instance.PlayChoppingSound(knife.transform.position);
         }
     }
 

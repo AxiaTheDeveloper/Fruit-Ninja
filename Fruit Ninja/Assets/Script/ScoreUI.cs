@@ -10,10 +10,16 @@ public class ScoreUI : MonoBehaviour
 
     private void Start() {
         FruitNinjaScoreGameManager.Instance.OnScoreAdd +=FruitNinja_OnScoreAdd;
+        FruitNinjaGameManager.Instance.OnStateChanged += Fruit_OnStateChanged;
     }
 
     private void FruitNinja_OnScoreAdd(object sender, System.EventArgs e){
         UpdateScoreVisual();
+    }
+    private void Fruit_OnStateChanged(object sender, System.EventArgs e){
+
+        UpdateScoreVisual();
+    
     }
 
     private void UpdateScoreVisual(){

@@ -13,6 +13,7 @@ public class Bomb : MonoBehaviour
         if(other.CompareTag(COLLIDER_PLAYER)){
             // Cutted();
             KnifeBehaviour knife = other.GetComponent<KnifeBehaviour>();
+            AudioManager.Instance.PlayWarningSound(knife.transform.position);
             FruitNinjaGameManager.Instance.gameOver();
 
 

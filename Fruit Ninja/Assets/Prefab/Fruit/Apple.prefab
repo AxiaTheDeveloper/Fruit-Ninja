@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 8bb6ae85d809e9a4fa9b395ab27cf56e, type: 3}
     - target: {fileID: 57036010569432971, guid: 5eb550baf218dbd4485ec8f40face1d7, type: 3}
       propertyPath: m_SortingOrder
-      value: 11
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 517454436037521541, guid: 5eb550baf218dbd4485ec8f40face1d7, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -725,7 +725,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 3f965fe90e1ffbc49b8eb2c784616e8c, type: 3}
     - target: {fileID: 1350175958377601260, guid: 5eb550baf218dbd4485ec8f40face1d7, type: 3}
       propertyPath: m_SortingOrder
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1605944433393532368, guid: 5eb550baf218dbd4485ec8f40face1d7, type: 3}
       propertyPath: prefabEffect
@@ -1245,7 +1245,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: e4c1fd1abd1664f41ab8ad67713a4393, type: 3}
     - target: {fileID: 7753553700488064766, guid: 5eb550baf218dbd4485ec8f40face1d7, type: 3}
       propertyPath: m_SortingOrder
-      value: 11
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8485855053743605847, guid: 5eb550baf218dbd4485ec8f40face1d7, type: 3}
       propertyPath: m_LocalPosition.x

@@ -10,7 +10,7 @@ public class FruitCuttedVisual : MonoBehaviour
     private Animator animatorController;
     private const string CUT = "Cut";
 
-    // Update is called once per frame
+
 
     private void Awake() {
         animatorController = GetComponent<Animator>();
@@ -21,7 +21,6 @@ public class FruitCuttedVisual : MonoBehaviour
 
     void Update()
     {
-        
         Destroy(gameObject, fruitLifeTime);
     }
 }

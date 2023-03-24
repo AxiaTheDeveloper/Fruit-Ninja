@@ -5,5 +5,6 @@ using UnityEngine;
 [CreateAssetMenu()]
 public class FruitsSpawnScriptableObject : ScriptableObject
 {
+
         public GameObject[] fruitSpawnPrefabArray;
 }

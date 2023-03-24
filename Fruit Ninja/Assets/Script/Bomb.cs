@@ -17,16 +17,11 @@ public class Bomb : MonoBehaviour
             FruitNinjaGameManager.Instance.gameOver();
 
 
-            GameObject cuteffect = Instantiate(Explode);
+            GameObject cuteffect = Instantiate(Explode); 
             cuteffect.transform.position = transform.position;
             
         }
-            
-            // OnCutScoreFruit?.Invoke(this, EventArgs.Empty);
-            // Cutted(knife.GetPerpindahanKnife(),knife.transform.position,knife.GetCutForce());
-    }
-    
-    
 
+    }
 
 }

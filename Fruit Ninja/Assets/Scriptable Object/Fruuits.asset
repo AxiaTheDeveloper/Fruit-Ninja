@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d744a4559c4b354e8e8cd69ce7b82f5, type: 3}
-  m_Name: FruitSpawnObject
+  m_Name: Fruuits
   m_EditorClassIdentifier: 
   fruitSpawnPrefabArray:
   - {fileID: 5804568153104313310, guid: 98069b9a9a6a44248b896272f9789817, type: 3}
-  - {fileID: 6163128557649118416, guid: d48b8e6cbda417c4da64a72b8807dc24, type: 3}
-  - {fileID: 4241116172511704356, guid: 66f4d6fdfb56c324cb40214b0a790af6, type: 3}
-  - {fileID: 1737906939385922220, guid: ba264c75a6fa1724c9f33ac227d32a0e, type: 3}
   - {fileID: 1388532668636677093, guid: 660cce6745c845546bfa4816d82ffbf3, type: 3}
   - {fileID: 7943054789627811302, guid: 85dbaafb1a835e44f92cf370706d9e76, type: 3}
+  - {fileID: 1737906939385922220, guid: ba264c75a6fa1724c9f33ac227d32a0e, type: 3}
+  - {fileID: 4241116172511704356, guid: 66f4d6fdfb56c324cb40214b0a790af6, type: 3}
+  - {fileID: 6163128557649118416, guid: d48b8e6cbda417c4da64a72b8807dc24, type: 3}

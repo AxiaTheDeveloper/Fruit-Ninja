@@ -13,16 +13,9 @@ public class KnifeBehaviour : MonoBehaviour
     private Vector3 perpindahanKnife;
     [SerializeField]private float kecepatanKnifeMin, cutForce;
 
-
-
-
     private void Awake() {
         knifeCollider = GetComponent<Collider2D>();
         Instance = this;
-    }
-
-    private void Start() {
-        // 
     }
 
     void Update()

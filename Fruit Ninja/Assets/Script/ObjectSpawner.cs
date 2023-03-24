@@ -9,6 +9,7 @@ public class ObjectSpawner : MonoBehaviour
     private Collider2D spawnArea;
 
     [SerializeField]private FruitsSpawnScriptableObject objectSpawnSO;
+    
 
     [SerializeField]private GameObject bombPrefab;
     [SerializeField]private float bombSpawnChance;

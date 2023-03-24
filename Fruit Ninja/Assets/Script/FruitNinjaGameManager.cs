@@ -7,9 +7,6 @@ public class FruitNinjaGameManager : MonoBehaviour
 {
     public static FruitNinjaGameManager Instance {get; private set;}
 
-    // public event EventHandler OnGameStart;
-
-    // public event EventHandler OnGameOver;
     public event EventHandler OnInteractStartGame;
     public event EventHandler OnStateChanged;
     

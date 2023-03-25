@@ -13,6 +13,7 @@ IMPLEMENTASI Game Optimization
   menggunakkan courotine untuk delay transisi UI
 
   ![image](https://user-images.githubusercontent.com/101692512/227447927-981ad675-86ab-4411-b546-44cf0b268dd9.png)
+  
   menggunakkan Couroutine untuk delay spawn object yang akan dipotong pemain
 
 - Membuat const string untuk tags atau trigger pada animasi
@@ -22,6 +23,7 @@ IMPLEMENTASI Game Optimization
   Player Tag yang dipakai di comparetag diletakkan di const string
 
   ![image](https://user-images.githubusercontent.com/101692512/227447468-296c4eef-ef4e-4d84-ac65-4484712ff20c.png)
+  
   Untuk memanggil trigger animasi, stringnya diletakkan di cons string
 
 
@@ -29,9 +31,11 @@ IMPLEMENTASI Game Optimization
 
 - Menghilangkan function yang kosong atau tidak dipakai
   ![image](https://user-images.githubusercontent.com/101692512/227445068-2b360ba1-cd41-4a5f-b500-418705c2c2c8.png)
+  
   menghilangkan function Start() karena tidak dipakai
 
   ![image](https://user-images.githubusercontent.com/101692512/227445241-41291b5d-81b8-41a1-9ea8-105ec6025d25.png)
+  
   menghilangkan function Update() karena tidak dipakai
 
 

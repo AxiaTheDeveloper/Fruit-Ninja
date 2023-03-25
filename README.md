@@ -7,6 +7,8 @@ IMPLEMENTASI Game Optimization
 
 - Penggunaan Couroutine dibanding Invoke()
 ![image](https://user-images.githubusercontent.com/101692512/227447812-cd14587e-513e-42d5-a5b3-2e6ae64069ea.png)
+
+
 menggunakkan courotine untuk delay transisi UI
 
 ![image](https://user-images.githubusercontent.com/101692512/227447927-981ad675-86ab-4411-b546-44cf0b268dd9.png)

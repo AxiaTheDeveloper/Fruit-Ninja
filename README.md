@@ -3,7 +3,7 @@
 IMPLEMENTASI Game Optimization
 - Texture 2D menggunakan filter mode Point(no filter)
 
- ![image](https://user-images.githubusercontent.com/101692512/227444452-8afa6ff7-d61f-4f01-beed-d72c9f0ac80a.png)
+  ![image](https://user-images.githubusercontent.com/101692512/227444452-8afa6ff7-d61f-4f01-beed-d72c9f0ac80a.png)
 
 
 - Penggunaan Couroutine dibanding Invoke()

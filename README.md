@@ -2,6 +2,7 @@
 
 IMPLEMENTASI Game Optimization
 - Texture 2D menggunakan filter mode Point(no filter)
+- 
 ![image](https://user-images.githubusercontent.com/101692512/227444452-8afa6ff7-d61f-4f01-beed-d72c9f0ac80a.png)
 
 
@@ -9,7 +10,7 @@ IMPLEMENTASI Game Optimization
 ![image](https://user-images.githubusercontent.com/101692512/227447812-cd14587e-513e-42d5-a5b3-2e6ae64069ea.png)
 
 
-menggunakkan courotine untuk delay transisi UI
+  menggunakkan courotine untuk delay transisi UI
 
 ![image](https://user-images.githubusercontent.com/101692512/227447927-981ad675-86ab-4411-b546-44cf0b268dd9.png)
 menggunakkan Couroutine untuk delay spawn object yang akan dipotong pemain

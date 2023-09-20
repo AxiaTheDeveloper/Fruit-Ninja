@@ -1,8 +1,6 @@
 # Fruit-Ninja
 
-Fruit Ninja Itch.io Link : https://axiathedeveloper.itch.io/fruitninja?secret=xmAbrVAYIyGaBQzSWth71oW5Lds
-
-**Android Only**
+[Fruit Ninja Itch.io Link :](https://axiathedeveloper.itch.io/fruitninja?secret=xmAbrVAYIyGaBQzSWth71oW5Lds) **(Android Only)**
 
 IMPLEMENTASI Game Optimization
 - Texture 2D menggunakan filter mode Point(no filter)
